@@ -25,6 +25,6 @@ png(filename ="plot2.png",width = 480,height = 480)
 
 #create the plot
 df$Global_active_power<-as.numeric(df$Global_active_power)
-plot(datetime,df$Global_active_power,type="l",ylab="Global Active Power (kilowatts)")
+plot(datetime,df$Global_active_power,type="l",xlab="",ylab="Global Active Power (kilowatts)")
 #close the PNG
 dev.off() 
